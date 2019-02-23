@@ -18,7 +18,7 @@
             <div class="detail">
                 <?php echo '<h1>'. $name .'</h1>' ?>
             </div>
-            <?php echo '<a href='. $_SERVER['HTTP_REFERER'] .' class="button display-centered" id="back-btn">back</a>' ?>
+            <?php echo '<a href="'. $_SERVER['HTTP_REFERER'] .'" class="button display-centered" id="back-btn">back</a>' ?>
             <div class="netDisplay">
                 <?php echo $NET ?>
                 <?php foreach ($NETS as $key => $data): ?>

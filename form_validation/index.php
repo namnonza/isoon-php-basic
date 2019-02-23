@@ -6,10 +6,10 @@
     require 'info-valid.php';
     
     if($_SESSION['upload']['hasCSV'] || ($_SESSION['price']['isset']&&$_SESSION['name']['isset'])){
-        header("Location: /php-basic/result/");
+        header("Location: /result/");
         die();
     } else {
-        header("Location: /php-basic/");
+        header("Location: /");
         die();
     }
 
